@@ -55,12 +55,20 @@ header, h2, h3 {
 
 header {
     border-width: 0px 0px 2px 0px;
+    display: flex;
+    align-items: center;
+    
 }
 
-a[href="index.html"], a[href="portfolio.html"] {
+
+#index, #portfolio {
     border-style: solid;
     border-color: #cccccc;
     border-width: 0px 2px 0px 0px;
+}
+
+#index, #portfolio, #contact {
+    text-align: center;
 }
 
 
@@ -70,13 +78,14 @@ h1 {
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 header a {
-    text-decoration: none; 
     color: #777777;
-    padding: 0px 10px 0px 10px;
+    /*padding: 0px 10px 0px 10px;*/
 }
+
 
 header a:focus {
     color: #4aaaa5;
