@@ -37,13 +37,14 @@ aside {
     padding: 30px 0px 30px 0px;
 }
 
+
 aside img {
     width: 60px; 
     height: 60px;
     margin: 10px 0px 10px 0px;
 }
 
-h1, .flexbox p {
+h1, #flexbox p {
     background-color: #4aaaa5;
     color: #ffffff;
 }
@@ -69,6 +70,7 @@ header {
 
 #index, #portfolio, #contact {
     text-align: center;
+     padding: 10px;
 }
 
 
@@ -83,7 +85,6 @@ h1 {
 
 header a {
     color: #777777;
-    /*padding: 0px 10px 0px 10px;*/
 }
 
 
@@ -107,44 +108,44 @@ h3 {
 }
 
 section p {
-    float: right;
-    margin-right: 50px;
-    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 section img {
-    width: 200px;
-    margin-left: 15px;
+    padding: 15px;
 }
 
-.flexbox {
+/*
+#flexbox {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
+*/
 
-.flexbox img {
+#flexbox img {
     padding: 15px;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.flexbox p {
-    width: 200px;
+#flexbox p {
     height: 30px;
-    padding: 15px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     bottom: 75px;
-    left: 30px;
+    left: 15px;
     
 }
+
+
+
 form p {
-    float: left; 
-    display: block;
     margin-left: 15px;
     margin-bottom: 15px;
 
@@ -166,11 +167,9 @@ input[type=submit] {
 
 footer {
     background-color: #666666;
-    clear: both;
     text-align: center;
     padding: 20px;
     color: #cccccc;
-    width: 100%;
     border-color: #4aaaa5;
     border-style: solid;
     border-width: 4px 0px 0px 0px;
